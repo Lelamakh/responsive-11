@@ -26,6 +26,7 @@ img {
   justify-content: space-between;
   align-items: center;
   padding-top: 40px;
+  flex-wrap: wrap;
 }
 header ul {
   display: flex;
@@ -33,6 +34,7 @@ header ul {
   align-items: center;
   text-align: center;
   gap: 43px;
+  flex-wrap: wrap;
 }
 header {
   background-color: #0a22f4;
@@ -70,6 +72,7 @@ section h1 {
   display: flex;
   margin: 0 auto;
   gap: 25px;
+  flex-wrap: wrap;
 }
 
 .paragraph {
@@ -192,6 +195,7 @@ h5 {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
+  flex-wrap: wrap;
 }
 footer iframe {
   margin-top: 58px;
