@@ -20,6 +20,7 @@ img {
   max-width: 1475px;
   width: 100%;
   margin: 0 auto;
+  padding: 20px;
 }
 .wrapper {
   display: flex;
@@ -269,4 +270,36 @@ footer ul {
   align-items: center;
   margin-top: 87px;
   margin-bottom: 40px;
+}
+/* < 768 mobile */
+/* 768 < n < 1024 tablets */
+/* 1024 < desktop */
+/* @media(max-width: 1024px){ */
+
+@media (width < 1024px) {
+  .container {
+    max-width: 334px;
+    width: 100%;
+  }
+  .cover {
+    max-width: 334px;
+    width: 100%;
+  }
+  .cover h1 {
+    font-size: 18px;
+  }
+  .allphoto {
+    gap: 10px;
+    grid-template-columns: 2fr;
+  }
+
+  .header nav {
+    display: none;
+  }
+  .footer-grid {
+    grid-template-columns: 1fr;
+  }
+  .forms {
+    order: -1;
+  }
 }
